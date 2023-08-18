@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    font-family: 'VT323', monospace;
+    margin: 0;
+}
+#header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#bff-img{
+    height: 400px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 50%;;
+    margin-right: 100px;
+}
+
+#content{
+ text-align: center;
+ font-size: x-large;
+ color: white;
+}
+#content a i{
+    padding: 10px;
+    font-size: 30px;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+#content a i:hover{
+    color: aqua;
+}
+.sec{
+     display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: top;
+    margin-top: 50px;
+    font-size: larger;  
+}
+li{
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.section1 a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: aqua;
+}
+
+ 
+
+
+  @media (max-width: 600px) {
+    #header {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #bff-img {
+        margin-right: 10px; 
+        margin-bottom: 20px; 
+    }
+    
+    .sec {
+        flex-direction: row; 
+        align-items: center;
+        text-align: center;
+    }
+}
